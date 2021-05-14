@@ -14,11 +14,14 @@ ResponseData myModel = new Gson().fromJson(myJson, ResponseData.class);
 ((TextView) findViewById(R.id.tv2)).setText(myJson);
 ```
 
-- raw/my_json.json
-make this file in `assets/raw`.
-`(left click in) app->new->folder->Assets Folder`
+- [ResponseData.java](https://github.com/gzeinnumer/JSONRaw/blob/master/app/src/main/java/com/gzeinnumer/jsonraw/model/ResponseData.java) [ListItem.java](https://github.com/gzeinnumer/JSONRaw/blob/master/app/src/main/java/com/gzeinnumer/jsonraw/model/ListItem.java)
+
+- raw/my_json.json \n
+make this file in `assets/raw`. \n
+`(left click in) app->new->folder->Assets Folder` \n
 make manual folder search with click `Show in explorer` in `assets`
-```
+
+```json
 {
   "list": [
     {
