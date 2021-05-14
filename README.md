@@ -21,6 +21,10 @@ ResponseData myModel = new Gson().fromJson(myJson, ResponseData.class);
   - `(left click in) app->new->folder->Assets Folder`
   - make manual folder search with click `Show in explorer` in `assets`
 
+<p align="center">
+  <img src="https://github.com/gzeinnumer/JSONRaw/blob/master/preview/example1.png"/>
+</p>
+
 ```json
 {
   "list": [
